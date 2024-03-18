@@ -2,11 +2,20 @@
 <html>
 <head>
 <meta charset="UTF-8">
+<SCRIPT language="JavaScript">
+ <!--
+   function msgdsp() {
+       alert("ボタンをクリックしましたね。");
+   }
+ // -->
+ </SCRIPT>
 </head>
 <body>
 <h1>JenkinsのCI・CDパイプラインでデプロイしたページです！</h1>
 <h1>執事ですから</h1>
 <h1>あくまで執事ですから</h1>
-<form><button/>押してみる</button></form>
+<form method="POST">
+   <button type="button" onclick="msgdsp()">押してみる</button>
+</form>
 </body>
 </html>
